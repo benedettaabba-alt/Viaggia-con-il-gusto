@@ -25,7 +25,7 @@
 
  .logo img{
   height: 95px;
-  padding-left: 50px;
+  padding-left: 15%;
  }
 
  
@@ -80,7 +80,7 @@
     color: white;
     float: right;
     align-items: center;
-    margin-right: 40px;
+    margin-right: 3%;
     cursor: pointer;
     display: none;
 
