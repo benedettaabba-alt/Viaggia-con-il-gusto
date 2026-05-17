@@ -79,7 +79,7 @@
     font-size: 30px;
     color: white;
     float: right;
-    line-height: 80px;
+    align-items: center;
     margin-right: 40px;
     cursor: pointer;
     display: none;
@@ -147,6 +147,9 @@
 body{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #dce5c2;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
  
@@ -347,7 +350,7 @@ body{
 
 .chi-siamo{
   text-align: justify;
-  padding: 0 80px;
+  padding: 0 30px;
 }
 
 
@@ -373,4 +376,5 @@ body{
   background-color: #455A64; 
   color: #F0F4E1;
   font-family:'Segoe UI', Tahoma, Verdana, sans-serif;
+  margin-top: auto;
 }
